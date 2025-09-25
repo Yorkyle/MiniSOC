@@ -52,7 +52,7 @@
 
 # \- \*\*CommandLine:\*\* `schtasks /create /sc onlogon /tn "DemoNotepad" /tr "notepad.exe"`  
 
-# \- **Evidence:** [screenshots/schtasks.png](screenshots/schtasks.png)
+# \- **Evidence:** ![schtasks evidence](./schtasks.png)
 
 
 # \- \*\*Notes:\*\* A scheduled task was created to launch Notepad at logon. Attackers often use this method for persistence.
