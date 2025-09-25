@@ -32,7 +32,7 @@
 
 # \- \*\*CommandLine:\*\* `certutil -urlcache -f https://example.com C:\\MiniSOC\\logs\\example.txt`  
 
-# \- \*\*Evidence:\*\* \[screenshots/certutilexe.png](screenshots/certutilexe.png)  
+# \- **Evidence:** ![certutil evidence](./certutilexe.png)
 
 # \- \*\*Notes:\*\* Certutil is a legitimate Windows tool often abused to download files. Here it was simulated safely.
 
@@ -52,7 +52,8 @@
 
 # \- \*\*CommandLine:\*\* `schtasks /create /sc onlogon /tn "DemoNotepad" /tr "notepad.exe"`  
 
-# \- \*\*Evidence:\*\* \[screenshots/schtasks.png](screenshots/schtasks.png)  
+# \- **Evidence:** [screenshots/schtasks.png](screenshots/schtasks.png)
+
 
 # \- \*\*Notes:\*\* A scheduled task was created to launch Notepad at logon. Attackers often use this method for persistence.
 
@@ -74,7 +75,7 @@
 
 # \- \*\*Additional Evidence:\*\* User added to Administrators group  
 
-# \- \*\*Evidence:\*\* \[screenshots/net1exe.png](screenshots/net1exe.png)  
+# \- **Evidence:** ![net1 evidence](./net1exe.png) 
 
 # \- \*\*Notes:\*\* The demo created a local account `labuser` and added it to Administrators. This shows how attackers can persist or escalate privileges.
 
